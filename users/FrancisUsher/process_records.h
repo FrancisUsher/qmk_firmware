@@ -26,6 +26,7 @@ bool process_record_keymap(uint16_t keycode, keyrecord_t *record);
 
 #define BK_LWER LT(_LOWER, KC_BSPC)
 #define SP_LWER LT(_LOWER, KC_SPC)
+#define SP_RAIS LT(_RAISE, KC_SPC)
 #define DL_RAIS LT(_RAISE, KC_DEL)
 #define ET_RAIS LT(_RAISE, KC_ENTER)
 
