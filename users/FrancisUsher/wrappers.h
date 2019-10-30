@@ -18,7 +18,9 @@ expanded before being used as arguments to the LAYOUT_xxx macro.
 #define LAYOUT_ortho_5x12_wrapper(...)       LAYOUT_ortho_5x12(__VA_ARGS__)
 #define LAYOUT_gergo_wrapper(...)            LAYOUT_gergo(__VA_ARGS__)
 #define LAYOUT_kyria_wrapper(...)            LAYOUT_kyria(__VA_ARGS__)
-#define LAYOUT_kyria_pretty_wrapper(...)            LAYOUT_kyria_pretty(__VA_ARGS__)
+#define LAYOUT_kyria_pretty_wrapper(...)     LAYOUT_kyria_pretty(__VA_ARGS__)
+#define LAYOUT_crkbd_wrapper(...)            LAYOUT_crkbd(__VA_ARGS__)
+
 
 /*
 Blocks for each of the four major keyboard layouts
@@ -63,7 +65,18 @@ NOTE: These are all the same length.  If you do a search/replace
 #define _________________LOWER_R2__________________        ________________NUMBER_RIGHT_______________
 #define _________________LOWER_R3__________________        ______________NUM_SHIFT_RIGHT______________
 
+#define ________________NUMBER_L1__________________        _________________LOWER_L1__________________
+#define ________________NUMBER_L2__________________        _________________LOWER_L2__________________
+#define ________________NUMBER_L3__________________        _________________LOWER_L3__________________
 
+#define ________________NUMBER_R1__________________        _________________LOWER_R1__________________
+#define ________________NUMBER_R2__________________        _________________LOWER_R2__________________
+#define ________________NUMBER_R3__________________        _________________LOWER_R3__________________
+
+
+#define _________________SYMBOL_L1_________________        KC_GRV, KC_TILD, KC_MINS, KC_UNDS, _______
+#define _________________SYMBOL_L2_________________        KC_LBRC, KC_RBRC, KC_LCBR, KC_RCBR, _______
+#define _________________SYMBOL_L3_________________        KC_BSLS, KC_PIPE, KC_PLUS, KC_EQL, _______
 
 #define _________________RAISE_L1__________________        ___________________BLANK___________________
 #define _________________RAISE_L2__________________        ___________________BLANK___________________
