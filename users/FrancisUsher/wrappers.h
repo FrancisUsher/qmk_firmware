@@ -20,6 +20,7 @@ expanded before being used as arguments to the LAYOUT_xxx macro.
 #define LAYOUT_kyria_wrapper(...)            LAYOUT_kyria(__VA_ARGS__)
 #define LAYOUT_kyria_pretty_wrapper(...)     LAYOUT_kyria_pretty(__VA_ARGS__)
 #define LAYOUT_crkbd_wrapper(...)            LAYOUT_crkbd(__VA_ARGS__)
+#define LAYOUT_prime_e_wrapper(...)          LAYOUT_prime_e(__VA_ARGS__)
 
 
 /*
@@ -54,6 +55,7 @@ NOTE: These are all the same length.  If you do a search/replace
 
 #define _________________NAV_R1____________________        KC_HOME, KC_PGUP, KC_PGDN, KC_END, KC_BSPC
 #define _________________NAV_R2____________________        KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, _______
+#define _________________NAV_R1_LONG_______________        KC_HOME, KC_PGUP, KC_PGDN, KC_END, KC_BSPC
 
 #define ___________________BLANK___________________        _______, _______, _______, _______, _______
 
